@@ -1,0 +1,36 @@
+{
+  "id": "travel",
+  "name": "旅行日记",
+  "desc": "旅行风光记录，清新明亮，适合横屏",
+  "platform": "youtube",
+  "aspect": "16:9",
+  "mood": "fresh",
+  "transition": "smoothleft",
+  "transitionDuration": 0.7,
+  "filter": "auto",
+  "motion": "auto",
+  "selection": { "photos": 9, "videos": 4, "minScore": 25 },
+  "photoDuration": 2.8,
+  "videoDuration": { "min": 2, "max": 6, "target": 3.5 },
+  "music": { "mood": "fresh", "volume": 0.3, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "在路上",
+    "subtitle": "Travel Diary",
+    "watermark": "旅行日记",
+    "titleDuration": 3.2,
+    "endDuration": 3,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "title", "color": "#F0FFF4", "size": 0.1, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "modern", "color": "#B8E8D0", "size": 0.045, "y": 0.44 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.035, "y": 0.88 },
+    "endText": "下一站，出发"
+  },
+  "endCard": { "bg": "#0F3A3A", "bg2": "#051F1F" },
+  "variants": [
+    { "id": "default", "name": "默认·清新", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "golden", "name": "金色黄昏", "filter": "golden", "musicMood": "golden", "fontStyle": "kaiti" },
+    { "id": "cinema", "name": "电影感", "filter": "cinema", "musicMood": "epic", "fontStyle": "modern" },
+    { "id": "forest", "name": "森系淡雅", "filter": "forest", "musicMood": "calm", "fontStyle": "serif" }
+  ]
+}

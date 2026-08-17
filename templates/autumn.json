@@ -1,0 +1,36 @@
+{
+  "id": "autumn",
+  "name": "秋日拾光",
+  "desc": "秋日/风景/散步记录，金色暖调",
+  "platform": "douyin",
+  "aspect": "9:16",
+  "mood": "golden",
+  "transition": "fade",
+  "transitionDuration": 0.7,
+  "filter": "golden",
+  "motion": "auto",
+  "selection": { "photos": 10, "videos": 3, "minScore": 25 },
+  "photoDuration": 2.8,
+  "videoDuration": { "min": 2, "max": 6, "target": 3.5 },
+  "music": { "mood": "golden", "volume": 0.3, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "秋天来了",
+    "subtitle": "Autumn Days",
+    "watermark": "秋日拾光",
+    "titleDuration": 3.2,
+    "endDuration": 3,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "kaiti", "color": "#FFF3D6", "size": 0.11, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "kaiti", "color": "#E8B878", "size": 0.05, "y": 0.45 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.038, "y": 0.88 },
+    "endText": "把秋天收藏起来"
+  },
+  "endCard": { "bg": "#4A2E12", "bg2": "#221407" },
+  "variants": [
+    { "id": "default", "name": "默认·金色", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "warm", "name": "暖阳", "filter": "warm", "musicMood": "warm", "fontStyle": "kaiti" },
+    { "id": "forest", "name": "森系", "filter": "forest", "musicMood": "calm", "fontStyle": "serif" },
+    { "id": "retro", "name": "胶片", "filter": "retro", "musicMood": "retro", "fontStyle": "kaiti" }
+  ]
+}

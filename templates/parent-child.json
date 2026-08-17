@@ -1,0 +1,36 @@
+{
+  "id": "parent-child",
+  "name": "亲子时光",
+  "desc": "父母与孩子的温馨互动，奶油治愈风",
+  "platform": "douyin",
+  "aspect": "9:16",
+  "mood": "sweet",
+  "transition": "fade",
+  "transitionDuration": 0.7,
+  "filter": "auto",
+  "motion": "auto",
+  "selection": { "photos": 10, "videos": 3, "minScore": 22 },
+  "photoDuration": 2.8,
+  "videoDuration": { "min": 2, "max": 6, "target": 3.5 },
+  "music": { "mood": "sweet", "volume": 0.32, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "陪你长大",
+    "subtitle": "Moments With You",
+    "watermark": "亲子时光",
+    "titleDuration": 3.5,
+    "endDuration": 3,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "round", "color": "#FFF6E8", "size": 0.11, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "round", "color": "#FFD9B0", "size": 0.05, "y": 0.45 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.038, "y": 0.88 },
+    "endText": "最好的时光是你在笑"
+  },
+  "endCard": { "bg": "#3A2A5C", "bg2": "#1C1233" },
+  "variants": [
+    { "id": "default", "name": "默认·奶油", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "soft", "name": "梦幻柔光", "filter": "soft", "musicMood": "calm", "fontStyle": "round" },
+    { "id": "pastel", "name": "粉彩甜酷", "filter": "pastel", "musicMood": "sweet", "fontStyle": "round" },
+    { "id": "polaroid", "name": "拍立得", "filter": "polaroid", "musicMood": "retro", "fontStyle": "kaiti" }
+  ]
+}

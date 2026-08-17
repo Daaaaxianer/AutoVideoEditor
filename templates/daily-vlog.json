@@ -1,0 +1,36 @@
+{
+  "id": "daily-vlog",
+  "name": "生活Vlog",
+  "desc": "日常生活记录 vlog，自然明亮",
+  "platform": "bilibili",
+  "aspect": "16:9",
+  "mood": "fresh",
+  "transition": "dissolve",
+  "transitionDuration": 0.6,
+  "filter": "auto",
+  "motion": "auto",
+  "selection": { "photos": 8, "videos": 5, "minScore": 25 },
+  "photoDuration": 2.6,
+  "videoDuration": { "min": 2, "max": 8, "target": 4 },
+  "music": { "mood": "fresh", "volume": 0.3, "duck": false },
+  "keepAudio": true,
+  "text": {
+    "title": "平凡的一天",
+    "subtitle": "Daily Vlog",
+    "watermark": "生活Vlog",
+    "titleDuration": 3,
+    "endDuration": 2.8,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "modern", "color": "#F2F7F5", "size": 0.09, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "modern", "color": "#A8D8C8", "size": 0.045, "y": 0.44 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.035, "y": 0.88 },
+    "endText": "生活明朗，万物可爱"
+  },
+  "endCard": { "bg": "#274A4A", "bg2": "#122525" },
+  "variants": [
+    { "id": "default", "name": "默认·清新", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "cinema", "name": "电影感", "filter": "cinema", "musicMood": "epic", "fontStyle": "modern" },
+    { "id": "warm", "name": "暖阳", "filter": "warm", "musicMood": "warm", "fontStyle": "modern" },
+    { "id": "bw", "name": "黑白文艺", "filter": "bw", "musicMood": "calm", "fontStyle": "serif" }
+  ]
+}

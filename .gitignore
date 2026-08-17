@@ -1,0 +1,7 @@
+node_modules/
+output/
+input/
+music/
+.thumbs/
+.jobs/
+*.log

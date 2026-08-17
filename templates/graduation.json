@@ -1,0 +1,36 @@
+{
+  "id": "graduation",
+  "name": "毕业季",
+  "desc": "毕业纪念短片，青春明亮，横屏适合投屏/上传",
+  "platform": "bilibili",
+  "aspect": "16:9",
+  "mood": "fresh",
+  "transition": "dissolve",
+  "transitionDuration": 0.6,
+  "filter": "auto",
+  "motion": "auto",
+  "selection": { "photos": 9, "videos": 4, "minScore": 25 },
+  "photoDuration": 2.6,
+  "videoDuration": { "min": 2, "max": 6, "target": 3.5 },
+  "music": { "mood": "fresh", "volume": 0.32, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "青春不散场",
+    "subtitle": "Graduation Day",
+    "watermark": "毕业季",
+    "titleDuration": 3.2,
+    "endDuration": 3,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "title", "color": "#F0FFF6", "size": 0.1, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "modern", "color": "#B8E8D0", "size": 0.045, "y": 0.44 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.035, "y": 0.88 },
+    "endText": "前程似锦，顶峰相见"
+  },
+  "endCard": { "bg": "#1F4A3A", "bg2": "#0E2620" },
+  "variants": [
+    { "id": "default", "name": "默认·清新", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "vivid", "name": "青春活力", "filter": "vivid", "musicMood": "happy", "fontStyle": "modern" },
+    { "id": "cinema", "name": "电影感", "filter": "cinema", "musicMood": "epic", "fontStyle": "modern" },
+    { "id": "golden", "name": "金色黄昏", "filter": "golden", "musicMood": "golden", "fontStyle": "kaiti" }
+  ]
+}

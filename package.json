@@ -1,0 +1,20 @@
+{
+  "name": "auto-video-editor",
+  "version": "0.2.0",
+  "description": "AutoVideoEditor 家庭视频自动剪辑：自动选材、自动滤镜/音乐/字体，多模板多风格，支持全套自定义（本地 CPU/GPU 渲染）",
+  "main": "src/cli.js",
+  "scripts": {
+    "start": "node web/server.js",
+    "cli": "node src/cli.js",
+    "web": "node web/server.js",
+    "samples": "node samples/make_samples.js",
+    "music": "node samples/make_music.js",
+    "music:dl": "node samples/download_music.js",
+    "demo": "node src/cli.js --input samples/input --music music --output output --template family-moments"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "private": true
+}

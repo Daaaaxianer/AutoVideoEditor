@@ -1,0 +1,37 @@
+{
+  "id": "family-moments",
+  "name": "家庭回忆录",
+  "desc": "温暖的家庭合影快剪，适合抖音/朋友圈竖屏",
+  "platform": "douyin",
+  "aspect": "9:16",
+  "mood": "warm",
+  "transition": "fade",
+  "transitionDuration": 0.6,
+  "filter": "auto",
+  "motion": "auto",
+  "selection": { "photos": 10, "videos": 3, "minScore": 25 },
+  "photoDuration": 2.6,
+  "videoDuration": { "min": 2, "max": 4, "target": 3 },
+  "music": { "mood": "warm", "volume": 0.32, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "我们的美好时光",
+    "subtitle": "Family Moments",
+    "watermark": "家庭回忆录",
+    "titleDuration": 3.5,
+    "endDuration": 3,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "title", "color": "#FFF7E6", "size": 0.1, "y": 0.32 },
+    "subtitleStyle": { "fontStyle": "kaiti", "color": "#FFD9A0", "size": 0.05, "y": 0.46 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.038, "y": 0.88 },
+    "endText": "愿时光温柔，家人常在"
+  },
+  "endCard": { "bg": "#2B1F3D", "bg2": "#12101F" },
+  "variants": [
+    { "id": "default", "name": "默认·暖阳", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "japanese", "name": "日系清新", "filter": "fresh", "musicMood": "fresh", "fontStyle": "modern" },
+    { "id": "retro", "name": "复古胶片", "filter": "retro", "musicMood": "retro", "fontStyle": "kaiti" },
+    { "id": "bw", "name": "黑白怀旧", "filter": "bw", "musicMood": "calm", "fontStyle": "serif" },
+    { "id": "golden", "name": "金色黄昏", "filter": "golden", "musicMood": "golden", "fontStyle": "kaiti" }
+  ]
+}

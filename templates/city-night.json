@@ -1,0 +1,36 @@
+{
+  "id": "city-night",
+  "name": "城市夜景",
+  "desc": "城市夜景/霓虹光影，赛博氛围",
+  "platform": "douyin",
+  "aspect": "9:16",
+  "mood": "cool",
+  "transition": "smoothleft",
+  "transitionDuration": 0.6,
+  "filter": "cyber",
+  "motion": "auto",
+  "selection": { "photos": 8, "videos": 4, "minScore": 25 },
+  "photoDuration": 2.4,
+  "videoDuration": { "min": 2, "max": 8, "target": 3.5 },
+  "music": { "mood": "dance", "volume": 0.35, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "夜 · 城市",
+    "subtitle": "City Nights",
+    "watermark": "城市夜景",
+    "titleDuration": 3,
+    "endDuration": 3,
+    "showDateLabels": false,
+    "titleStyle": { "fontStyle": "title", "color": "#E8F0FF", "size": 0.11, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "modern", "color": "#9FC8FF", "size": 0.05, "y": 0.45 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.038, "y": 0.88 },
+    "endText": "霓虹之下，皆是故事"
+  },
+  "endCard": { "bg": "#0E1030", "bg2": "#05060F" },
+  "variants": [
+    { "id": "default", "name": "默认·赛博", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "cool", "name": "冷调", "filter": "cool", "musicMood": "calm", "fontStyle": "modern" },
+    { "id": "bwhard", "name": "黑白高对比", "filter": "bwhard", "musicMood": "epic", "fontStyle": "title" },
+    { "id": "moody", "name": "情绪暗调", "filter": "moody", "musicMood": "calm", "fontStyle": "serif" }
+  ]
+}

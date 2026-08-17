@@ -1,0 +1,36 @@
+{
+  "id": "newyear",
+  "name": "新年祝福",
+  "desc": "春节/新年祝福视频，红火喜庆",
+  "platform": "douyin",
+  "aspect": "9:16",
+  "mood": "happy",
+  "transition": "wipeleft",
+  "transitionDuration": 0.6,
+  "filter": "vivid",
+  "motion": "zoom-in",
+  "selection": { "photos": 9, "videos": 3, "minScore": 25 },
+  "photoDuration": 2.5,
+  "videoDuration": { "min": 2, "max": 5, "target": 3 },
+  "music": { "mood": "happy", "volume": 0.35, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "新年快乐！",
+    "subtitle": "Happy New Year",
+    "watermark": "新年快乐",
+    "titleDuration": 3.2,
+    "endDuration": 3,
+    "showDateLabels": false,
+    "titleStyle": { "fontStyle": "title", "color": "#FFF3D6", "size": 0.13, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "kaiti", "color": "#FFD98E", "size": 0.055, "y": 0.46 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.038, "y": 0.88 },
+    "endText": "阖家幸福，万事如意"
+  },
+  "endCard": { "bg": "#7A1F1F", "bg2": "#3A0E0E" },
+  "variants": [
+    { "id": "default", "name": "默认·喜庆", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "golden", "name": "鎏金", "filter": "golden", "musicMood": "golden", "fontStyle": "kaiti" },
+    { "id": "retro", "name": "复古贺岁", "filter": "retro", "musicMood": "retro", "fontStyle": "kaiti" },
+    { "id": "vivid", "name": "高饱和", "filter": "vivid", "musicMood": "happy", "fontStyle": "modern" }
+  ]
+}
