@@ -1,0 +1,91 @@
+{
+  "id": "cinema-film",
+  "name": "电影感大片",
+  "desc": "把家庭日常剪成电影预告片，宽屏大气",
+  "platform": "youtube",
+  "aspect": "16:9",
+  "mood": "epic",
+  "transition": "fadeblack",
+  "transitionDuration": 0.8,
+  "filter": "cinema",
+  "motion": "zoom-in",
+  "selection": {
+    "photos": 7,
+    "videos": 5,
+    "minScore": 28
+  },
+  "photoDuration": 3,
+  "videoDuration": {
+    "min": 2,
+    "max": 10,
+    "target": 4
+  },
+  "music": {
+    "mood": "epic",
+    "volume": 0.35,
+    "duck": false
+  },
+  "keepAudio": false,
+  "text": {
+    "title": "我们的故事",
+    "subtitle": "OUR STORY",
+    "watermark": "家庭大片",
+    "titleDuration": 4,
+    "endDuration": 4,
+    "showDateLabels": false,
+    "titleStyle": {
+      "fontStyle": "title",
+      "color": "#F5F0E8",
+      "size": 0.09,
+      "y": 0.3
+    },
+    "subtitleStyle": {
+      "fontStyle": "modern",
+      "color": "#C8C0B0",
+      "size": 0.04,
+      "y": 0.43
+    },
+    "captionStyle": {
+      "fontStyle": "modern",
+      "color": "#FFFFFF",
+      "size": 0.03,
+      "y": 0.88
+    },
+    "endText": "TO BE CONTINUED…"
+  },
+  "endCard": {
+    "bg": "#101820",
+    "bg2": "#060B10"
+  },
+  "variants": [
+    {
+      "id": "default",
+      "name": "默认·电影感",
+      "filter": "auto",
+      "musicMood": "",
+      "fontStyle": "auto"
+    },
+    {
+      "id": "moody",
+      "name": "暗调情绪",
+      "filter": "moody",
+      "musicMood": "calm",
+      "fontStyle": "serif"
+    },
+    {
+      "id": "bw",
+      "name": "黑白大片",
+      "filter": "bw",
+      "musicMood": "epic",
+      "fontStyle": "title"
+    },
+    {
+      "id": "golden",
+      "name": "金色史诗",
+      "filter": "golden",
+      "musicMood": "golden",
+      "fontStyle": "title"
+    }
+  ],
+  "effect": "letterbox"
+}

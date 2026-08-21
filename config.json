@@ -1,0 +1,8 @@
+{
+  "inputDir": "input",
+  "musicDir": "music",
+  "outputDir": "output",
+  "template": "family-moments",
+  "webPort": 8088,
+  "seed": 0
+}

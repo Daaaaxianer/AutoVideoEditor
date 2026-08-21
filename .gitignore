@@ -1,0 +1,13 @@
+node_modules/
+output/
+input/
+music/
+samples/input/
+samples/music/
+.thumbs/
+.jobs/
+.aved-ignored.json
+models/*.jpg
+models/*.jpeg
+*.log
+.dl_tmp.mp3

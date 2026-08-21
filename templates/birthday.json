@@ -1,0 +1,36 @@
+{
+  "id": "birthday",
+  "name": "生日派对",
+  "desc": "生日聚会欢乐快剪，多彩活泼",
+  "platform": "douyin",
+  "aspect": "9:16",
+  "mood": "happy",
+  "transition": "circleopen",
+  "transitionDuration": 0.55,
+  "filter": "auto",
+  "motion": "zoom-in",
+  "selection": { "photos": 8, "videos": 4, "minScore": 25 },
+  "photoDuration": 2.4,
+  "videoDuration": { "min": 2, "max": 5, "target": 3 },
+  "music": { "mood": "happy", "volume": 0.35, "duck": false },
+  "keepAudio": false,
+  "text": {
+    "title": "生日快乐！",
+    "subtitle": "Happy Birthday",
+    "watermark": "生日派对",
+    "titleDuration": 3,
+    "endDuration": 2.8,
+    "showDateLabels": true,
+    "titleStyle": { "fontStyle": "round", "color": "#FFE9A8", "size": 0.12, "y": 0.3 },
+    "subtitleStyle": { "fontStyle": "round", "color": "#FFB8D0", "size": 0.055, "y": 0.45 },
+    "captionStyle": { "fontStyle": "modern", "color": "#FFFFFF", "size": 0.038, "y": 0.88 },
+    "endText": "许个愿吧 ✨"
+  },
+  "endCard": { "bg": "#4A2A6B", "bg2": "#1A1030" },
+  "variants": [
+    { "id": "default", "name": "默认·活力", "filter": "auto", "musicMood": "", "fontStyle": "auto" },
+    { "id": "cream", "name": "奶油甜暖", "filter": "cream", "musicMood": "sweet", "fontStyle": "round" },
+    { "id": "vivid", "name": "高饱和炫彩", "filter": "vivid", "musicMood": "happy", "fontStyle": "modern" },
+    { "id": "soft", "name": "梦幻柔光", "filter": "soft", "musicMood": "calm", "fontStyle": "round" }
+  ]
+}
